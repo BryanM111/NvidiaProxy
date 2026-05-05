@@ -35,7 +35,9 @@ const MODEL_MAPPING = {
   'gpt-4o': 'deepseek-ai/deepseek-v3.1',
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gemini-pro': 'moonshotai/kimi-k2.5'
+  'gemini-pro': 'moonshotai/kimi-k2.5',
+  'mistralai/mixtral-8x22b-instruct-v0.1': 'nvidia/nemotron-3-super-120b-a12b',
+  'nvidia/nemotron-3-super-120b-a12b': 'mistralai/mixtral-8x22b-instruct-v0.1'
 };
 
 // Root endpoint
