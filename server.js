@@ -41,7 +41,9 @@ const MODEL_MAPPING = {
   'nvidia/nemotron-3-nano-30b-a3b': 'deepseek-ai/deepseek-v4-pro',
   'deepseek-ai/deepseek-v4-pro': 'nvidia/nemotron-3-nano-30b-a3b',
   'z-ai/glm-5.1': 'openai/gpt-oss-120b',
-  'openai/gpt-oss-120b': 'z-ai/glm-5.1'
+  'openai/gpt-oss-120b': 'z-ai/glm-5.1',
+  'meta/llama-3.3-70b-instruct': 'stepfun-ai/step-3.5-flash',
+  'stepfun-ai/step-3.5-flash': 'meta/llama-3.3-70b-instruct'
 };
 
 // Root endpoint
